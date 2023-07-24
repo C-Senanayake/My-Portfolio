@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamath Senanayake</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<style>
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #2a2e35;
+      color: white;
+      padding: 10px;
+      z-index: 1;
+      text-align: center;
+      height: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: x-large;
+    }
+
+    nav a:hover {
+      color: lightgray;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-auto-rows: minmax(200px, auto); */
+        grid-gap: 10px;
+        grid-template-areas: 
+            "a a b"
+            "a a c";
+    }
+    .grid-container1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        /* grid-auto-rows: minmax(200px, auto); */
+        grid-gap: 30px;
+    }
+    .grid-container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        /* grid-auto-rows: minmax(200px, auto); */
+        grid-gap: 10px;
+    }
+    .grid-container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        /* grid-auto-rows: minmax(200px, auto); */
+        grid-gap: 10px;
+    }
+    .grid-item{
+        background-color: #9b9b9b;
+        width: 120px;
+        height: 120px;
+    }
+    .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(224, 224, 224);
+    }
+    .it-1{
+        grid-area: a;
+        background-color: #2a2e35;
+        border-radius: 10px;
+        padding: 20px;;
+    }
+    .it-2{
+        grid-area: b;
+        background-color: #2a2e35;
+        border-radius: 10px;
+        padding: 20px;
+
+    }
+    .it-3{
+        grid-area: c;
+        background-color: #2a2e35;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+</style>
+<body class="main-content">
+    <nav>
+        <a href="https://github.com/C-Senanayake" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/chamathsenanayake/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:chamath5000@gmail.com" target="_blank">
+            <i class="fas fa-envelope-open"></i>
+        </a>
+        <a href=""><div class="icon" >
+            <i class="fa fa-phone"></i>
+            <span>+94 767344265&nbsp;</span>
+        </div>
+      </nav>
+    <header class="container header active" id="home" style="margin-top: 65px;height: 85vh; overflow: auto;">
+        <div class="header-content">
+            <div class="left-header" style="margin-top:-30px; height:calc(100vh - 65px);">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/Edited.png" alt="">
+                </div>
+            </div>
+            <div class="right-header" style="height: 90%;">
+                <h1 class="name">
+                    Hi, I'm <span>Chamath Senanayake.</span>
+                </h1>
+                <!-- <ul style="list-style-type:disc; color:white;">
+                    <li>A Web Developer.</li>
+                    <li>A Mobile Application Developer.</li>
+                </ul> -->
+                <p>Web Developer  &nbsp;&nbsp;| &nbsp;&nbsp;Mobile Application Developer</p>
+                <p>
+                    I'm a Software Developer, who is curious to learn new technologies and one who is thirst for knowledge.
+                    I love to create attractive  and functional web and mobile  applications as solutions to give the best user experience.
+                    
+                </p>
+                <div class="btn-con" >
+                    <a href="img/Chamath Senanayake CV.pdf" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about" style="margin-top: 65px;">
+            <div class="main-title">
+                <h2 >About <span>me</span><span class="bg-text" style="width: 100%;">about me</span></h2>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div style="width: 100%;">
+                    <!-- <h4 style=" text-align: center; margin-bottom: 10px;">Information About me</h4> -->
+                    <p style=" text-align: justify;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eveniet labore nihil obcaecati consequatur. Debitis error doloremque, 
+                        vero eos vel nemo eius voluptatem dicta tenetur modi. <br /> <br /> La musica
+                        delectus dolore fugiat exercitationem a, 
+                        ipsum quidem quo enim natus accusamus labore dolores nam. Unde.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Harum non necessitatibus deleniti eum soluta.
+                    </p>
+                    <div class="btn-con" style="align-items: center;justify-content: center;margin-top: 30px ; margin-bottom: 30px;">
+                        <a href="img/Chamath Senanayake CV.pdf" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <div style="display: flex; flex-direction: column; ">
+                    <div style="display: flex; flex-direction: row;margin-bottom: 15px;gap: 30px;">
+                        <div>
+                            <div class="icon" style="margin-bottom: 20px;" >
+                                <i class="	fa fa-user"></i>
+                                <span style="width: 40px;"><b>Name &nbsp; </b></span>
+                            </div>
+                            <div class="icon" style="margin-bottom: 20px;">
+                                <i class="fa fa-birthday-cake"></i>
+                                <span><b>Age &nbsp; </b></span>
+                            </div>
+                            <div class="icon" style="margin-bottom: 20px;">
+                                <i class="fas fa-user-graduate"></i>
+                                <span><b>Degree &nbsp; </b></span>
+                            </div>
+                            <div class="icon" style="margin-bottom: 20px;">
+                                <i class="fas fa-user-graduate"></i>
+                                <span><b>University &nbsp;</b></span>
+                            </div>
+                            <div class="icon" style="margin-bottom: 20px;">
+                                <i class="	fas fa-city"></i>
+                                <span><b>School &nbsp;</b></span>
+                            </div>
+                            <div class="icon" style="margin-bottom: 20px;">
+                                <i class="fas fa-envelope"></i>
+                                <span><b>Email&nbsp;</b></span>
+                            </div>
+                            <div class="icon" style="margin-bottom: 20px;">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span><b>Location &nbsp;</b></span>
+                            </div>
+                            <div class="icon" style="margin-bottom: 20px;">
+                                <i class="fa fa-phone"></i>
+                                <span><b>Mobile Number &nbsp;</b></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="margin-bottom: 20px;">
+                                :
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                :
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                :
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                :
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                :
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                :
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                :
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                :
+                            </div>
+                        </div>
+                        <div>
+                            <div style="margin-bottom: 20px;">
+                                Chamath Senanayake
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                22
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                Bachelor's in Computer Science
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                University of Colombo School of Computing
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                Richmond College Galle
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                chamath5000@gmail.com
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                Boralesgamuwa, Colombo, Sri Lanka.
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                +94 767344265
+                            </div>
+                        </div>
+
+                        
+                </div>
+                <div style="margin-bottom: 50px;">
+                    <h2 style="text-align:center;margin-bottom: 20px;">My Skills</h2>
+                        <div style="display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
+                            <div>
+                                <div class="grid-container">
+                                    <div class="it-1">
+                                        <h5 style="text-align: center;margin-bottom: 10px;">Web/Mobile Development</h5>
+                                        <div class="grid-container1">
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/databases/mongodb.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/frameworks/expressjs.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/frameworks/react.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/frameworks/nodejs.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/frameworks/redux.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/others/html.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/others/css.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/programming languages/javascript.svg"class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/programming languages/php.png" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/databases/mysql.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/others/json.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/others/npm.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/programming languages/kotlin.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 70px;" src="img/programming languages/dart.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <!-- <img style="width: 70px;" src="img/programming languages/dart.svg" class="client__logo" /> -->
+                                            </div>
+                                            <div class="grid-item item">
+                                                <!-- <img style="width: 70px;" src="img/programming languages/dart.svg" class="client__logo" /> -->
+                                            </div>
+                                        </div>
+                                        <!-- <img style="width: 80px;" src="img/frameworks/android.svg" class="client__logo" /> -->
+                                    </div>
+                                    <div class="it-2">
+                                        <h5 style="text-align: center; margin-bottom: 10px;">Programming Languages</h5>
+                                        <div class="grid-container2">
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/programming languages/c.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/programming languages/c++.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/programming languages/java.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/programming languages/python.svg" class="client__logo" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="it-3">
+                                        <h5 style="text-align: center;margin-bottom: 10px;">Text Editors</h5>
+                                        <div class="grid-container3">
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/text editors/vscode.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/ides/android-studio.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/ides/intellij.svg" class="client__logo" />
+                                            </div>
+                                            <div class="grid-item item">
+                                                <img style="width: 80px;" src="img/ides/pycharm.svg" class="client__logo" />
+                                            </div>
+                                        </div>
+                                        <!-- <img style="width: 80px;" src="img/ides/phpstorm.svg" class="client__logo" /> -->
+                                    </div>
+                                  </div> 
+                            </div>
+                        </div>
+                        
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">html5</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">css3</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">ReactJS</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">NodeJS</p>
+                        <div class="progress-con">
+                            <p class="prog-text">100%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="container" id="portfolio" style="margin-top: 65px;">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text"  style="width: 100%;">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/MarkAssist.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/DinithKumudika/MarkAssist.git" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/Audex.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/TharinduEpaz/Audex.git" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="blogs" style="margin-top: 65px;">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Resume</span><span class="bg-text"  style="width: 100%;"> Resume</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <!-- <img src="img/port6.jpg" alt=""> -->
+                        <div class="blog-text">
+                            <h3 class="resume-title">Sumary</h3>
+                            <h4>
+                                Chamath Senanayake
+                            </h4>
+                            <p>
+                                <em>Chamath  is a software engineering graduate with one year 
+                                    industrial experience . He is a aspiring fullstack developer who
+                                    also shows interest in learning new technology and applying knowledge to solve the customer pain points.
+                                </em>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <!-- <img src="img/blog1.jpg" alt=""> -->
+                        <div class="blog-text">
+                            <h3 class="resume-title">Education</h3>
+
+                            <h4>BSc in Computer Science</h4>
+                            <h5>2021 - Present</h5>
+                            <p><em>University of Colombo SChool of Computing, Sri Lanka</em></p>
+                            <p><em>GPA- 3.45</em></p>
+
+                            <h4>G.C.E. Advanced Levels</h4>
+                            <h5>2017 - 2019</h5>
+                            <p><em>Richmond College, Galle</em></p>
+                            <p>
+                                Faced the G.C.E. Advanced Level examination in the Physical Sciences stream<br>
+                                Combined Maths- A | Physics- B | Chemistry- B
+                                
+                            </p>
+                            <h4>G.C.E. Ordinary Levels</h4>
+                            <h5>2016</h5>
+                            <p><em>Richmond College, Galle</em></p>
+                            <p>
+                                9'A's for all subjects including ICT
+                                
+                            </p>
+
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact" style="margin-top: 65px; height: calc(100vh - 65px); display: flex; justify-content: center; align-items: center;">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text"  style="width: 100%;">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4 style="text-align: center;">Contact me here</h4>
+
+
+                        <div class="contact-icons">
+                            <div class="contact-icon" style="justify-content: center;">
+                                <a href="https://github.com/C-Senanayake" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/chamathsenanayake/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <!-- <a href="https://twitter.com/RavinduRansara4?t=-usS71fIMykiwcrjjehjkA&s=09"
+                                    target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a> -->
+                            </div>
+                        </div><br><br>
+
+                        
+                        <div style="display: flex; flex-direction: row;margin-bottom: 15px; align-items: center; justify-content: center;">
+                            <a href="mailto:chamath5000@gmail.com" style="display: flex; flex-direction: row;margin-bottom: 15px; align-items: center; justify-content: center;">
+                                <div class="icon" >
+                                    <i class="fas fa-envelope"></i>
+                                    <span><b>Email&nbsp;</b></span>
+                                </div>
+                                <p>
+                                    <span> chamath5000@gmail.com</span>
+                                </p>
+                            
+                            </a>
+                        </div><br>
+                        <div style="display: flex; flex-direction: row;margin-bottom: 15px; align-items: center;justify-content: center;">
+                            <div class="icon" >
+                                <i class="fa fa-phone"></i>
+                                <span><b>Mobile Number &nbsp;</b></span>
+                            </div>
+                            <p>
+                                <span>+94 767344265</span>
+                            </p>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div >
+        <!-- <i class="fas fa-adjust"></i> -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
