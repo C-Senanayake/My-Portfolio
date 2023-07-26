@@ -299,11 +299,11 @@ section {
                         width: 60%;
                     }
                     .html { width: 80%; }
-                    .css { width: 95%; }
-                    .js { width: 75%; }
-                    .react{ width: 60%; }
-                    .node{ width: 87%; }
-                    .python{ width: 70%; }
+                    .css { width: 75%; }
+                    .js { width: 85%; }
+                    .react{ width: 90%; }
+                    .node{ width: 70%; }
+                    .python{ width: 50%; }
                 }
             }
         }
@@ -452,7 +452,7 @@ section {
 //Blogs Section
 .blogs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 2rem;
     margin-top: 3rem;
     .blog {

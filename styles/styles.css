@@ -312,19 +312,19 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 85%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
+  width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 50%;
 }
 
 .stat-title {
@@ -483,7 +483,7 @@ section {
 
 .blogs {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 2rem;
   margin-top: 3rem;
 }
