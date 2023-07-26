@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamath Senanayake</title>
+    <link rel="icon" href="img/c.png">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,6 +102,74 @@
         border-radius: 10px;
         padding: 20px;
     }
+    @media screen and (max-width:1432px){
+    .container{
+        padding: 7rem 11rem;
+    }
+
+    .contact-content-con{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+        
+    }
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+
+    .contact-content-con .right-contact{
+        margin-bottom: 6rem;
+    }
+
+    .main-title{
+        h2{
+            .bg-text{
+                font-size: 5.5rem;
+            }
+        }
+    }
+    .grid-container1{
+     /* grid-template-columns: repeat(auto-fit, 186px); */
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-container2,.grid-container3{
+     /* grid-template-columns: repeat(auto-fit, 186px); */
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blogs{
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 6rem;
+  }
+  .portfolios{
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .header-content .right-header{
+      padding-right: 9rem;
+  }
+    
+}
+
+
+
+@media screen and (max-width:660px){
+    .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .portfolios {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-container1{
+    /* grid-template-columns: repeat(auto-fit, 186px); */
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 </style>
 <body class="main-content">
@@ -177,96 +246,105 @@
             </div>
             <div style="display: flex; flex-direction: column;">
                 <div style="display: flex; flex-direction: column; ">
-                    <div style="display: flex; flex-direction: row;margin-bottom: 15px;gap: 30px;">
+                    <!-- <div style="display: flex; flex-direction: row;margin-bottom: 15px;gap: 30px;"> -->
                         <div>
-                            <div class="icon" style="margin-bottom: 20px;" >
-                                <i class="	fa fa-user"></i>
-                                <span style="width: 40px;"><b>Name &nbsp; </b></span>
+                            <div style="display: flex;flex-direction: row;gap: 5%; margin-bottom: 20px;">
+                                <div class="icon" style="width: 30%;" >
+                                    <i class="	fa fa-user"></i>
+                                    <span ><b>Name &nbsp; </b></span>
+                                </div>
+                                <div>
+                                    :
+                                </div>
+                                <div style="width: 60%;" >
+                                    Chamath Senanayake
+                                </div>
                             </div>
-                            <div class="icon" style="margin-bottom: 20px;">
-                                <i class="fa fa-birthday-cake"></i>
-                                <span><b>Age &nbsp; </b></span>
+                            <div style="display: flex;flex-direction: row;gap: 5%; margin-bottom: 20px;">
+                                <div class="icon" style="width: 30%;">
+                                    <i class="fa fa-birthday-cake"></i>
+                                    <span><b>Age &nbsp; </b></span>
+                                </div>
+                                <div>
+                                    :
+                                </div>
+                                <div style="width: 60%;">
+                                    22
+                                </div>
                             </div>
-                            <div class="icon" style="margin-bottom: 20px;">
-                                <i class="fas fa-user-graduate"></i>
-                                <span><b>Degree &nbsp; </b></span>
+                            <div style="display: flex;flex-direction: row;gap: 5%; margin-bottom: 20px;">
+                                <div class="icon" style="width: 30%;">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span><b>Degree &nbsp; </b></span>
+                                </div>
+                                <div>
+                                    :
+                                </div>
+                                <div style="width: 60%;">
+                                    Bachelor's in Computer Science
+                                </div>
                             </div>
-                            <div class="icon" style="margin-bottom: 20px;">
-                                <i class="fas fa-user-graduate"></i>
-                                <span><b>University &nbsp;</b></span>
+                            <div style="display: flex;flex-direction: row;gap: 5%; margin-bottom: 20px;">
+                                <div class="icon" style="width: 30%;">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span><b>University &nbsp;</b></span>
+                                </div>
+                                <div>
+                                    :
+                                </div>
+                                <div style="width: 60%;">
+                                    University of Colombo School of Computing
+                                </div>
                             </div>
-                            <div class="icon" style="margin-bottom: 20px;">
-                                <i class="	fas fa-city"></i>
-                                <span><b>School &nbsp;</b></span>
+                            <div style="display: flex;flex-direction: row;gap: 5%; margin-bottom: 20px;">
+                                <div class="icon" style="width: 30%;">
+                                    <i class="	fas fa-city"></i>
+                                    <span><b>School &nbsp;</b></span>
+                                </div>
+                                <div>
+                                    :
+                                </div>
+                                <div style="width: 60%;">
+                                    Richmond College Galle
+                                </div>
                             </div>
-                            <div class="icon" style="margin-bottom: 20px;">
-                                <i class="fas fa-envelope"></i>
-                                <span><b>Email&nbsp;</b></span>
+                            <div style="display: flex;flex-direction: row;gap: 5%; margin-bottom: 20px;">
+                                <div class="icon" style="width: 30%;">
+                                    <i class="fas fa-envelope"></i>
+                                    <span><b>Email&nbsp;</b></span>
+                                </div>
+                                <div>
+                                    :
+                                </div>
+                                <div style="width: 60%;">
+                                    chamath5000@gmail .com
+                                </div>
                             </div>
-                            <div class="icon" style="margin-bottom: 20px;">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span><b>Location &nbsp;</b></span>
+                            <div style="display: flex;flex-direction: row;gap: 5%; margin-bottom: 20px;">
+                                <div class="icon" style="width: 30%;">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span><b>Location &nbsp;</b></span>
+                                </div>
+                                <div>
+                                    :
+                                </div>
+                                <div style="width: 60%;">
+                                    Boralesgamuwa, Colombo, Sri Lanka.
+                                </div>
                             </div>
-                            <div class="icon" style="margin-bottom: 20px;">
-                                <i class="fa fa-phone"></i>
-                                <span><b>Mobile Number &nbsp;</b></span>
+                            <div style="display: flex;flex-direction: row;gap: 5%; margin-bottom: 20px;">
+                                <div class="icon" style="width: 30%;">
+                                    <i class="fa fa-phone"></i>
+                                    <span><b>Mobile Number &nbsp;</b></span>
+                                </div>
+                                <div>
+                                    :
+                                </div>
+                                <div style="width: 60%;">
+                                    +94 767344265
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <div style="margin-bottom: 20px;">
-                                :
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                :
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                :
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                :
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                :
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                :
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                :
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                :
-                            </div>
-                        </div>
-                        <div>
-                            <div style="margin-bottom: 20px;">
-                                Chamath Senanayake
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                22
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                Bachelor's in Computer Science
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                University of Colombo School of Computing
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                Richmond College Galle
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                chamath5000@gmail.com
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                Boralesgamuwa, Colombo, Sri Lanka.
-                            </div>
-                            <div style="margin-bottom: 20px;">
-                                +94 767344265
-                            </div>
-                        </div>
-
-                        
-                </div>
                 <div style="margin-bottom: 50px;">
                     <h2 style="text-align:center;margin-bottom: 20px;">My Skills</h2>
                         <div style="display: flex; align-items: center; flex-wrap: wrap; justify-content: center;">
@@ -464,31 +542,40 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-item" style="padding: 0; background-image: url(img/E-library.avif);background-size: cover;">
+                    <!-- <div class="image">
+                        <img src="img/E-library.avif" alt="">
+                    </div> -->
                     <div class="hover-items">
                         <h3>Project Source</h3>
                         <div class="icons">
-                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                            <a href="https://github.com/C-Senanayake/RAD-SCS2208-Assignment.git" class="icon" style="margin-bottom: 20px;">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-item" >
+                    <div class="image">
+                        <img src="img/dice.jpg" alt="">
+                    </div>
                     <div class="hover-items">
                         <h3>Project Source</h3>
                         <div class="icons">
-                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                            <a href="https://github.com/C-Senanayake/DICE-DASH.git" class="icon" style="margin-bottom: 20px;">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-item" style="padding: 0; background-image: url(img/sewana.jpg);background-size: cover;">
+                    <!-- <div class="image">
+                        <img src="img/Audex.png" alt="">
+                    </div> -->
                     <div class="hover-items">
                         <h3>Project Source</h3>
                         <div class="icons">
-                            <a href="#" class="icon" style="margin-bottom: 20px;">
+                            <a href="https://github.com/C-Senanayake/Sewana-Holdings-Property-Managaement-System.git" class="icon" style="margin-bottom: 20px;">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
